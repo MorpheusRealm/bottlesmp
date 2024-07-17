@@ -1,0 +1,76 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        font-family: Arial, sans-serif;
+        background-image: url('bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(8px); /* Blur effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Minecraft', sans-serif !important;
+    font-size: 2.5em;
+    color: #157A27;
+	text-shadow: 1px 4px 5px #000000;
+}
+
+h1 {
+	font-family: 'Minecraft', sans-serif !important;
+    font-size: 2.5em;
+    color: #157A27;
+	text-shadow: 1px 4px 5px #000000;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+	font-family:'Minecraft', sans-serif;
+    font-size: 2em;
+    color: #BD101D;
+    margin-bottom: 10px;
+	text-decoration: underline; /* Underline section headers */
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.2em;
+    padding: 5px 0;
+	color :#000000;
+}
+
+p {
+    font-size: 1.2em;
+    padding: 5px 0;
+	color :#000000;
+}
+
+ul li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
